@@ -1,16 +1,22 @@
 import 'package:flutter/material.dart';
+import 'package:wechat/screens/welcome_screen.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+import 'package:wechat/screens/login_screen.dart';
+import 'package:wechat/screens/registration_screen.dart';
+import 'package:wechat/screens/chat_screen.dart';
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+void main() => runApp(FlashChat());
 
+class FlashChat extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return  Container(
-      color: Colors.lightBlue,
+    return MaterialApp(
+      theme: ThemeData.dark().copyWith(
+        textTheme: TextTheme(
+          bodyText1: TextStyle(color: Colors.black54),
+        ),
+      ),
+      home: WelcomeScreen(),
     );
   }
 }
