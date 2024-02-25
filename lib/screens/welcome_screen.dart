@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:wechat/screens/login_screen.dart';
 import 'package:wechat/screens/registration_screen.dart';
+import 'package:animated_text_kit/animated_text_kit.dart';
 
 class WelcomeScreen extends StatefulWidget {
   static String id = 'welcome_screen';
@@ -52,13 +53,17 @@ class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProvider
                     height: 60.0,
                   ),
                 ),
-                Text(
-                  'We Chat',
-                  style: TextStyle(
+                AnimatedTextKit(
+                 animatedTexts : [
+                  TypewriterAnimatedText('We Chat',
+                  textStyle:  TextStyle(
                     color: Colors.black,
                     fontSize: 45.0,
                     fontWeight: FontWeight.w900,
                   ),
+                  ),
+                  
+                 ]
                 ),
               ],
             ),
