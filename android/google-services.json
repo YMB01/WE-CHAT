@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "598667084465",
+    "project_id": "we-chat-910e8",
+    "storage_bucket": "we-chat-910e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598667084465:android:26bcef7b2057ed0d675890",
+        "android_client_info": {
+          "package_name": "com.example.wechat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHhgpn91uuktmwvncFH2jsmkLfxy3qwaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
