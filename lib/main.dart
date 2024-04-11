@@ -5,6 +5,7 @@ import 'package:wechat/screens/login_screen.dart';
 import 'package:wechat/screens/registration_screen.dart';
 import 'package:wechat/screens/chat_screen.dart';
 
+
 void main() => runApp(FlashChat());
 
 class FlashChat extends StatelessWidget {
